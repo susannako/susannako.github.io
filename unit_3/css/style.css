@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+section {
+		background-color: #FFFFFF;
+		padding: 200px;
+}
+
+	h1 {
+	font-family: San serif, san serif;
+	font-size: 80px;
+	color: #000000;
+}
+
+p {
+	font-family: Times, serif;
+	font-size: 80px;
+	color: #000000;
+}
+
+body {
+	text-align: left;
+	color: #0000FF ;
+	font-family: Times
+}
+
+img {
+	height:700px;
+	padding: 12px;
+}

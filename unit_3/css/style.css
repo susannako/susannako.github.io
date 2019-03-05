@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -9,13 +11,13 @@ section {
 }
 
 	h1 {
-	font-family: San serif, san serif;
+	font-family: 'Noto Serif KR';
 	font-size: 80px;
 	color: #000000;
 }
 
 p {
-	font-family: Times, serif;
+	font-family: 'Noto Serif KR';
 	font-size: 80px;
 	color: #000000;
 }
@@ -23,7 +25,7 @@ p {
 body {
 	text-align: left;
 	color: #0000FF ;
-	font-family: Times
+	font-family: 'Noto Serif KR';
 }
 
 img {

@@ -5,7 +5,7 @@
 	margin: 0;
 }
 
-article {
+header {
 		background-color: #E89C6C;
 		padding-top: 200px;
 		padding-left: 200px;
@@ -75,13 +75,22 @@ div {
 	padding-left: 0px;
 }
 
-wrapper {
+#wrapper {
 	background-color: #FFFFFF;
-	width: auto width;
+	max-width: 1900px;
+	margin: 0 auto;
 }
 
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:hover span{
+	color:blue;
 }

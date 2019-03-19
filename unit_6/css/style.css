@@ -38,6 +38,7 @@ body {
 	text-align: left;
 	color: #0000FF ;
 	font-family: 'Noto Serif KR';
+	font-size: 14px;
 }
 
 img {
@@ -47,8 +48,12 @@ img {
 	padding-right: 24px;
 }
 
-#img_full_width: {
-	width: 2400px;
+.image_full_width img{
+	width: 100%;
+}
+
+.image--grid img{
+	width: 1200px;
 }
 
 footer {
@@ -65,7 +70,6 @@ h3 {
 	font-family: 'Noto Serif KR';
 	font-size: 36px;
 	color: #000000;
-	width: 1600px;
 }
 
 h4 {
@@ -122,7 +126,7 @@ header a:hover span{
 	padding-right: 100px;
 	float: left;
 	width: 50%;
-
+}
 #right {
 	background-color: #E55B88;
 	padding left: 100px;

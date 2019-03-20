@@ -24,7 +24,7 @@ h1 {
 	font-size: 35px;
 	color: #000000;
 	padding-top: 100px;
-	padding-left: 5px;
+	padding-left: 13px;
 	padding-bottom: 120px;
 }
 
@@ -32,6 +32,7 @@ p {
 	font-family: 'Noto Serif KR';
 	font-size: 90px;
 	color: #000000;
+	padding-left: 10px;
 }
 
 body {
@@ -58,9 +59,9 @@ img {
 
 footer {
 	background-color: #FFFFFF;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 100px;
-	padding-left: 240px;
+	padding-left: 171px;
 }
 
 h3 {
@@ -86,7 +87,7 @@ hr {
 	padding-left: 200px
 }
 
- span{
+span{
 	font-family: 'Noto Serif KR';
 	font-size: 90px;
 	color: #000000;
@@ -116,29 +117,62 @@ header a:hover span{
 }
 
 #two_column {
-		background-color: #FFB7CF;
+		background-color: #FFFFFF;
 		padding: 20px;
 }
 
 #left {
-	background-color: #E582A2;
+	background-color: #FFFFFF;
 	padding-left: 0px;
 	padding-right: 100px;
 	float: left;
-	width: 50%;
+	width: 66%;
 }
 #right {
-	background-color: #E55B88;
-	padding left: 100px;
+	background-color: #FFFFFF;
 	float: right;
-	width: 33%;
+	width: 25%;
 }
 
 .clearfix:after{
 	visibility: hidden;
 	display: block;
-	font-size: 0
+	font-size: 0;
 	content: " ";
-	clear: both
+	clear: both;
 	height: 0;
+}
+
+.image--grid img {
+	width: 100%;
+}
+
+
+.col-1-2-left {
+	width: 1190px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.col-1-2-right {
+	width: 1190px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.homepage--grid img {
+	width: 100%;
+}
+
+.homepage--grid  {
+	width: 31%;
+	float: left;
+	padding-top: 75px;
+	padding-left: 35px;
+	padding-right: 10px;
+	padding-bottom: 75px;
 }

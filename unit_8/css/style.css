@@ -6,14 +6,14 @@
 }
 
 header {
-		background-color: #E89C6C;
+		background-color: #FFFFFF;
 		padding-top: 200px;
 		padding-left: 0px;
 		padding-bottom: 65px;
 }
 
 section {
-		background-color: #FFE2B8;
+		background-color: #FFFFFF;
 		padding-top: 30px;
 		padding-bottom: 90px;
 		padding-left: 0px;
@@ -24,7 +24,7 @@ h1 {
 	font-size: 35px;
 	color: #000000;
 	padding-top: 100px;
-	padding-left: 0px;
+	padding-left: 1%;
 	padding-bottom: 120px;
 }
 
@@ -32,7 +32,7 @@ p {
 	font-family: 'Noto Serif KR';
 	font-size: 90px;
 	color: #000000;
-	padding-left: 0px;
+	padding-left: 1%;
 }
 
 body {
@@ -46,7 +46,7 @@ img {
 	width: 100%;
 	padding-top: 24px;
 	padding-left: 0px;
-	padding-right: 24px;
+	padding-right: 1%;
 }
 
 .image_full_width img{
@@ -58,7 +58,7 @@ img {
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: #FFFFFF;
 	padding-top: 10px;
 	padding-bottom: 100px;
 	padding-left: 0px;
@@ -75,7 +75,7 @@ h3 {
 
 h4 {
 	text-align: left;
-	padding-left: 2px;
+	padding-left: 1%;
 	font-family: 'Noto Serif KR';
 	font-size: 40px;
 	color: #000000;
@@ -106,17 +106,17 @@ span{
 
 div {
 	padding-left: 0px;
-	background-color: #FFE2B8;
+	background-color: #FFFFFF;
 }
 
 #wrapper {
 	background-color: #FFFFFF;
-	max-width: 2400px;
-	margin: 0 auto;
+	max-width: 100%;
+	margin: 5% auto;
 }
 
 header {
-	background-color: #FFED74;
+	background-color: #FFFFFF;
 	padding: 0px;
 }
 
@@ -161,19 +161,20 @@ header a:hover span{
 
 
 .col-1-2-left {
-	width: 1190px;
+	width: 49%;
 	float: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%
+	padding-right: 1%;
 }
 
 .col-1-2-right {
-	width: 1190px;
+	width: 49%;
 	float: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
 }
 
 .homepage--grid img {
@@ -181,10 +182,22 @@ header a:hover span{
 }
 
 .homepage--grid  {
-	width: 31.4%;
+	width: 32%;
 	float: left;
-	padding-top: 75px;
-	padding-left: 45px;
+	padding-top: 1%;
+	padding-left: 1%;
 	padding-right: 0px;
-	padding-bottom: 75px;
+	padding-bottom: 1%;
+}
+
+@media screen and (max-width: 470px) {
+	.col-1-2-left{
+	float: none;
+	}
+	.col-1-2-right{
+	float: none;
+	}
+	.homepage--grid{
+	float: none;
+
 }
